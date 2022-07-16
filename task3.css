@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(179, 239, 249)
+}
+h1{
+    color: black;
+    font-family:monospace;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+p{
+    font-family: 'Pacifico';
+    color: rgb(227, 14, 14);
+    font-weight: bold;
+}
+.row{
+    margin: 10px 10px;
+}
+.rb{
+    padding: 10px 25px 10px 25px;
+    border-radius: 6px;
+    border: 2px solid rgb(81, 78, 78);
+    background-color:black;
+    margin: 4px 4px;
+    color: rgb(9, 8, 8);
+    cursor: pointer;
+    color: aqua;
+    font-size: large;
+}
+.rb:hover{
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+input{
+    margin-bottom: 25px;
+    padding: 10px 10px;
+    border-radius: 6px;
+    font-size: 24px;
+    background-color: white;
+}
+#equals{
+    color: black;
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+#equals:hover{
+    background-color: rgb(99, 99, 19);
+}
+#clr{
+    border: 2px solid red;
+    background-color: red;
+    color: black;
+}
+#clr:hover{
+    background-color: rgb(121, 44, 44);
+}
